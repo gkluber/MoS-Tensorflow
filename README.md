@@ -1,6 +1,6 @@
 # MoS-Tensorflow
 Tensorflow implementation of the mixture of softmaxes algorithm described in the paper <a href="https://arxiv.org/abs/1711.03953">Breaking the Softmax Bottleneck: A High-Rank RNN Language Model (Yang et al., 2017)</a>.<br>
-Much of the code is borrowed from https://github.com/zihangdai/mos. <br>
+See https://github.com/zihangdai/mos for an implementation using PyTorch. <br>
 #### Why does mixture of softmaxes matter?
 In natural language processing, the extent to which the true probability distribution of appropriate responses can be approximated overall by the network depends on the ability to express probabilties.<br>
 The problem with using the softmax function is that, when applied to the logits or raw outputs of a neural network, a substantial amount of information is lost. <br>
